@@ -1,6 +1,6 @@
 name = "libserialport_jll"
 uuid = "220460dc-b50e-5ed0-8176-09b0fd261e90"
-version = "0.1.1+0"
+version = "0.1.1+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
