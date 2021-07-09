@@ -1,105 +1,107 @@
 [[libserialport]]
-arch = "x86_64"
-git-tree-sha1 = "93a85c8c90c0bdc741da1dc671e49522e66475c9"
-os = "windows"
-
-    [[libserialport.download]]
-    sha256 = "c464a1b4d3a1f1f0644ff551aec7a9b485f87c8837f228596a92d5866b567cee"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.x86_64-w64-mingw32.tar.gz"
-[[libserialport]]
-arch = "x86_64"
-git-tree-sha1 = "ea89abffd87d072e6c6735b59759a5905ebddbed"
+arch = "aarch64"
+git-tree-sha1 = "497b101c97492f3e35d08eda1795d45bb3b26ecb"
 libc = "glibc"
 os = "linux"
 
     [[libserialport.download]]
-    sha256 = "b1eddfbb073c5aa092d94d1dcc825ba2cf5d92ca53878daa4d61e2c2328c2e09"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "b9dc3ea1950de8d88bd6a9300f84e17cacdc0109862c3206d9df5386cf54c1b2"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.aarch64-linux-gnu.tar.gz"
+[[libserialport]]
+arch = "aarch64"
+git-tree-sha1 = "6b9d4fcd2054e6d354fec3960dd7e11d5cf9832f"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "1fdb58026bb40661757f0f090468aa3f58fa3393f1176d4e1445120549362816"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.aarch64-linux-musl.tar.gz"
 [[libserialport]]
 arch = "armv7l"
-git-tree-sha1 = "3af2a5e314f944cb72b0e66e833c59f8779fafa2"
-libc = "musl"
-os = "linux"
-
-    [[libserialport.download]]
-    sha256 = "5ab32c5913be3d53c825ad9b14c94511a6944315e91e621612790c1ca0bd5c5a"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.armv7l-linux-musleabihf.tar.gz"
-[[libserialport]]
-arch = "i686"
-git-tree-sha1 = "b9d1fde5fd19017b2b1b55f07b619aa8d040010b"
+call_abi = "eabihf"
+git-tree-sha1 = "3b640a4f5595d49c1a13088bb157b3098a0c3d82"
 libc = "glibc"
 os = "linux"
 
     [[libserialport.download]]
-    sha256 = "472cc294eb63a88766c398f44bb5c63071c146eeced57b82a3fbf5e6a9c4f293"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.i686-linux-gnu.tar.gz"
+    sha256 = "637d43f4236e7680efefc1e3bde0145987a6d29e4fca7ded422e287708ace298"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.armv7l-linux-gnueabihf.tar.gz"
+[[libserialport]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "dfb04249ce39eadb6571eca97bdea810ef57100f"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "5120e8f7ed09d46feea2919ac0ec351773b21c21fadda5db96a1e29a381cd725"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.armv7l-linux-musleabihf.tar.gz"
 [[libserialport]]
 arch = "i686"
-git-tree-sha1 = "a2563ecf452bf7ee9d51d847c0a3130d6bd8032a"
+git-tree-sha1 = "3fbbaea91e3f413ac0b02e049a2d89c8f62c0a66"
+libc = "glibc"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "9d91566d40be3cf1f12842864c95783f0f35772ae5d7510b7c089f964fb811c0"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.i686-linux-gnu.tar.gz"
+[[libserialport]]
+arch = "i686"
+git-tree-sha1 = "6f54ed3632f02b165ce48afc5b9c7e8a6dbbb700"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "205da1c3390801859c22a42991bea0139be08ab186267ee9b9a6ec788a41d29e"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.i686-linux-musl.tar.gz"
+[[libserialport]]
+arch = "i686"
+git-tree-sha1 = "224a70747aa78f56470b020b5ada9732938c2ab4"
 os = "windows"
 
     [[libserialport.download]]
-    sha256 = "2030b838f2618e33ad4a53e7eecf7cd4287862fffb304f5db2e507ef62a3d92c"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.i686-w64-mingw32.tar.gz"
-[[libserialport]]
-arch = "aarch64"
-git-tree-sha1 = "4341746e3018c58355d5cfd1bb5859158a174bf8"
-libc = "musl"
-os = "linux"
-
-    [[libserialport.download]]
-    sha256 = "a4867e36c50295ea958bd9ccca7a1e034182c223a655837c87d498faeb7d0b1f"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.aarch64-linux-musl.tar.gz"
-[[libserialport]]
-arch = "aarch64"
-git-tree-sha1 = "9b2176eb603a3b0c1828c0c8dd5e99efc92381df"
-libc = "glibc"
-os = "linux"
-
-    [[libserialport.download]]
-    sha256 = "c9010f6a13d98973d7dd20b24af21f4fb4c5de74c560a6f1cf6501cb3e93166a"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.aarch64-linux-gnu.tar.gz"
-[[libserialport]]
-arch = "i686"
-git-tree-sha1 = "61288078333a6d69b05ab07d3e71649cb1951f8a"
-libc = "musl"
-os = "linux"
-
-    [[libserialport.download]]
-    sha256 = "2762cf25650ea21c3b669527b7e32a280c806d1d36dad51e881026305bcc62b7"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.i686-linux-musl.tar.gz"
-[[libserialport]]
-arch = "x86_64"
-git-tree-sha1 = "3ebd2c84976aa25816ed614201a1d419c7482053"
-libc = "musl"
-os = "linux"
-
-    [[libserialport.download]]
-    sha256 = "da6b6cea3c7d14c3fdda3b738302ac89c6eadd69ca9b40b941b01e30ec6bf66f"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.x86_64-linux-musl.tar.gz"
+    sha256 = "78fea88fbd4bb54e72cee82cc99c4466563acf83d07872bf71ecf578f4eb00b0"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.i686-w64-mingw32.tar.gz"
 [[libserialport]]
 arch = "powerpc64le"
-git-tree-sha1 = "c138ab9f033666595251752bcf1b8b3f544adf19"
+git-tree-sha1 = "d88d5392a3f15bd4d5a5bd3402b4cfb2d0b89c20"
 libc = "glibc"
 os = "linux"
 
     [[libserialport.download]]
-    sha256 = "91960c7285a57a6c9fcadc1876bdc24cf6f6348c31a3fc1271ec3a663c46f8fd"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "d95629cb06a19d2a93c3366d31b3f01bb793639c7f3a2cf6616cf6c96cc48d83"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.powerpc64le-linux-gnu.tar.gz"
 [[libserialport]]
 arch = "x86_64"
-git-tree-sha1 = "e91a172c357ff797d1e91909288560c708db1de1"
+git-tree-sha1 = "e8bb9ea9f2b56b531d1ad9c6f5d9f7395dc24ed3"
 os = "macos"
 
     [[libserialport.download]]
-    sha256 = "e840a018e6294deb45b3f5ef3952d9d51876347087f20555531a492b8c0a1f4d"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.x86_64-apple-darwin14.tar.gz"
+    sha256 = "d7129164c7ed9ef5e6ba63a5222fdfa5d26d8bc3d3407bdc3204572eb5ec51ff"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.x86_64-apple-darwin.tar.gz"
 [[libserialport]]
-arch = "armv7l"
-git-tree-sha1 = "e8b3de74f476d7a32d913effadb1ab7c59e45eca"
+arch = "x86_64"
+git-tree-sha1 = "20de39a7bf41936df6deccd474ee40236cdce8ef"
 libc = "glibc"
 os = "linux"
 
     [[libserialport.download]]
-    sha256 = "1ed1c50ed71ba99b65f12a2a9b018564c69dfc82ff9ae5ffff9eb55ba05d4cf6"
-    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+0/libserialport.v0.1.2.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "d1fdbd6995720653f55f261035792eaa6b9e434ab9480a884ce6ce44b429b856"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.x86_64-linux-gnu.tar.gz"
+[[libserialport]]
+arch = "x86_64"
+git-tree-sha1 = "0dd2cc1075d715a48a0812f928ec7b84d978dd83"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "936ddb4b4ac5ab182f3bab3939dd2fcc3c61fe857190607b35e373dc8e9fb0e9"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.x86_64-linux-musl.tar.gz"
+[[libserialport]]
+arch = "x86_64"
+git-tree-sha1 = "4c2d9a0117fa822fab0c6446726ccbf164cae3a5"
+os = "windows"
+
+    [[libserialport.download]]
+    sha256 = "a6bc8881967c83e13275a9aea993015f0bf6848a01bebe9ee7835fa0bea55837"
+    url = "https://github.com/JuliaBinaryWrappers/libserialport_jll.jl/releases/download/libserialport-v0.1.2+1/libserialport.v0.1.2.x86_64-w64-mingw32.tar.gz"
